@@ -110,27 +110,3 @@ flowchart TD
     A --> E[Multicast<br>ff00::/8<br>Group communication]
 ```
 ---
-
-## Preparation Requirements ✅
-
-You should be able to explain the following concepts:
-
-### Core IPv6 Concepts
-- [x] **IPv6 addresses and their characteristics** ✅
-- [x] **The difference between Unicast, Multicast, and Broadcast in IPv6 and their purpose** ✅
-  - *Note: Broadcast is NOT used in IPv6 - multicast is used instead*
-- [x] **The structure of IPv6 addresses and the difference to IPv4 addresses** ✅
-  - *Note: IPv6 doesn't use subnet masks or broadcast addresses like IPv4*
-- [x] **The different scopes of IPv6 addresses and their purpose** ✅
-
----
-
-## Summary
-
-This preparation document covers all required topics for Lab Exercise Sheet 2:
-- ✅ IPv6 address format and capacity
-- ✅ Communication types (Unicast, Multicast, no Broadcast)
-- ✅ Address structure components with diagrams
-- ✅ Address scopes with table and diagram
-
-**Ready for lab examination!** 🎯
