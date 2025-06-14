@@ -7,6 +7,7 @@ A **Virtual Local Area Network (VLAN)** is a technology that allows you to creat
 ## Network Topology Identification
 
 ![alt text](image.png)
+***Note**: The interfaces in the Lab shall be: eth0 = enp1s0f1 and eth2 = enp1s0f0*
 
 ## VLAN Implementation Methods
 
@@ -20,3 +21,17 @@ A **Virtual Local Area Network (VLAN)** is a technology that allows you to creat
 | **Trade-offs**        | – Slight overhead (4 bytes/frame)<br>– Requires VLAN-aware devices¹ and configuration                | – One cable or port per VLAN needed<br>– Not suitable for multi-VLAN links |
 
 ¹ **VLAN-aware devices**: Network devices (hosts, switches, routers) that understand and can process 802.1Q VLAN tags. These devices must have drivers/firmware supporting VLAN tagging and the ability to create virtual interfaces (e.g., eth0.10 for VLAN 10).
+
+## Experimental Setup and Testing
+
+### Step 1: Initial Setup
+• **Select Router 1 computer**: Choose the Linux machine connected to external Router 2
+• **Verify connectivity**: Check enp1s0f1 is connected to Router 2, enp1s0f0 available for switch
+• **Enable IPv6**: Configure IPv6 on enp1s0f1 to get Internet access
+  ```bash
+  // TODO: Commands needed to configure IPv6 for the network
+  ```
+
+### Step 2: Choose Implementation Method
+
+// TODO: Next steps
